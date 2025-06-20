@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.maintext h1{
+    font-family: "Rock Salt", cursive;
+}
+
+.boxmain{
+    margin: 0px;
+    height: 1000px;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    
+}
+
+.allsongs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.whole{
+    background-image: url("img/lake.jpg");
+    background-size: cover;
+    background-repeat: no;
+}
+
+.boxmain ul{
+    list-style-type: none;
+
+}
+
+.playbtn{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgb(43, 255, 0);
+    border: none;
+    margin: 20px;
+    margin-top: 240px;
+}
+
+.songbox:hover{
+    border: 3.5px solid black;
+    scale: 1.01;
+    filter: brightness(80%);
+    cursor: pointer;
+}
+
+.playbtn:hover{
+    filter: brightness(75%);
+}
+
+.overlaytext h1{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-family: "Rock Salt", cursive;
+
+}
+
+.allsongs{
+    display: flex;
+}
+
+.songbox{
+    border: 3px solid black;
+    border-radius: 11%;
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    /* display: flex; */
+    /* justify-content: center; */
+    transition: 0.1s ease;
+    margin: 50px;
+    /* background-image: url("images/1.jpg"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    /* display: block; */
+    filter: brightness(50%);
+}
+
+.songlogo{
+    /* position: absolute; */
+    height: 100px auto;
+    width: 100%;
+    border-radius: 10%;
+}
+
+
+.overlaytext{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#cosmosttext h1{
+    color: rgb(255, 255, 255);
+    filter: brightness(100%);
+}
+
+#comingsoon:hover{
+    filter: brightness(50%);
+}
+
+.backbtn{
+    height: 70px;
+    width: 200px;
+    margin-left: 55px;
+    background-color: rgb(41, 41, 41);
+    font-size: large;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    list-style: none;
+    transition: 0.7s ease;
+ }
+ 
+ .backbtn:hover{
+     border: 2px solid white;
+     scale: 1.2;
+     cursor: pointer;
+ }
+ 
+ .backbtn a{
+     text-decoration: none;
+     color: white;
+     font-size: 20px;
+     
+ }

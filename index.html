@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barriecito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+
+<body class="cover">
+    
+    <!-- <button onclick="audio.play()">hi</button> -->
+    <div class="navbar">
+        <div class="leftnav">
+
+            <ul id="navtext">
+                <div class="logo"><img src="img/17.jpg" alt=""></div>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutme.html">AboutMe</a></li>
+                <li><a href="releases.html">Releases</a></li>
+                <li><a href="musicvideo.html">Music Videos</a></li>
+                <audio id="mainaudio" controls autoplay loop title='ShaniaYan/Complete MV' >
+                <source src="wholemix.mp3">
+                </audio>
+            </ul>
+        </div>
+    </div>
+    <!-- <hr color="black"> -->
+    <div class="namediv name">>SHANIA YAN<</h1>
+    </div>
+    <div class="maintext">
+
+
+
+        <model-viewer id="model1" src="3.glb" camera-controls disable-zoom></model-viewer><img src="567.png" alt="">
+        <model-viewer id="model1" src="guitar.glb" camera-controls disable-zoom></model-viewer>
+    </div>
+    <div class="other">
+        <div class="main">
+
+            <div class="name">
+                <h2>Welcomes You</h2>
+            </div>
+
+            <div class="animtext">
+                <pre>
+        <span class="firsttext">I am a </span><span class="secondtext"></span></pre>
+
+            </div>
+        </div>
+
+    </div><br><hr>
+    <div class="socialtext">
+        <div class="socialtextt"><h1>My Community!</h1></div>
+        <ul class="boxsocial">
+            <li>|</li>
+            <li class="tiktokli">Tiktok <br> <div class="socialcount">5m+</div></li>
+            <li>|</li>
+            <li class="tiktokli">Youtube <br> <div class="socialcount">2.5m+</div></li>
+            <li>|</li>
+            <li class="tiktokli">Instagram<br> <div class="socialcount">1.5m+</div></li>
+            <li>|</li>
+            <li class="tiktokli">Facebook <br> <div class="socialcount">2m+</div></li>
+            <li>|</li>
+        </ul>
+    </div>
+
+    </div>
+
+    <footer>
+        <div class="text-footer">
+
+
+            <p>Copyright &copy; 2025-all rights reserved</p>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed(".secondtext", {
+            strings: [' Singer', ' Youtuber', ' Tiktoker', ' Content Creator','Musician'],
+            typeSpeed: 150,
+            backSpeed: 150,
+            loop: true,
+
+        });
+    </script>
+
+</body>
+
+</html>
